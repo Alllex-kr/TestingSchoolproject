@@ -1,0 +1,90 @@
+{
+	"data": [
+		{
+			"logDateTime": "2023/12/15, 12:14:00",
+            "pvSystemId": "20bb600e-019b-4e03-9df3-a0a900cda689",
+			"channels": [
+				{
+					"channelName": "PanelCount",
+					"channelType": "Energie-Park",
+					"unit": "",
+					"value": 50
+				},
+				{
+					"channelName": "TotalCurrentPower",
+					"channelType": "Energie-Park",
+					"unit": "kW",
+					"value": 12500
+				},
+				{
+					"channelName": "DailyProductionTotal",
+					"channelType": "Energie-Park",
+					"unit": "kWh",
+					"value": 1500
+				},
+				{
+					"channelName": "HistoricalDataLastYear",
+					"channelType": "Energie-Park",
+					"unit": "kWh",
+					"value": 1400
+				},
+				{
+					"channelName": "EfficiencyTotal",
+					"channelType": "Energie-Park",
+					"unit": "%",
+					"value": 70
+				},
+				{
+					"channelName": "HydrogenProduction",
+					"channelType": "Energie-Park",
+					"unit": "%",
+					"value": 80
+				},
+				{
+					"channelName": "CurrentSolarPower",
+					"channelType": "Energie-Park",
+					"unit": "W/m^2",
+					"value": 90
+				}
+			],
+			"cluster": [
+				{
+					"clusterId": "C001",
+					"currentPowerUnit": "kW",
+					"currentPowerValue": 250,
+					"efficiencyUnit": "%",
+					"efficiencyValue": 71,
+					"dailyProductionTotalUnit": "kWh",
+					"dailyProductionTotalValue": 800
+				},
+				{
+					"clusterId": "C002",
+					"currentPowerUnit": "kW",
+					"currentPowerValue": 200,
+					"efficiencyUnit": "%",
+					"efficiencyValue": 72,
+					"dailyProductionTotalUnit": "kWh",
+					"dailyProductionTotalValue": 650
+				},
+				{
+					"clusterId": "C003",
+					"currentPowerUnit": "kW",
+					"currentPowerValue": 300,
+					"efficiencyUnit": "%",
+					"efficiencyValue": 73,
+					"dailyProductionTotalUnit": "kWh",
+					"dailyProductionTotalValue": 700
+				},
+				{
+					"clusterId": "C004",
+					"currentPowerUnit": "kW",
+					"currentPowerValue": 450,
+					"efficiencyUnit": "%",
+					"efficiencyValue": 74,
+					"dailyProductionTotalUnit": "kWh",
+					"dailyProductionTotalValue": 750
+				}
+			]
+		}
+	]
+}
